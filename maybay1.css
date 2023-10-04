@@ -1,0 +1,98 @@
+html{
+    height: 100%;
+}  
+body{
+	margin: 0;
+    font-family: 'PT Sans', sans-serif;
+    background-image: url('https://vcdn-dulich.vnecdn.net/2022/09/24/-8995-1663985544.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+  
+}
+.box1{
+    display: flex;
+    justify-content: space-between; 
+    font-size: 10px;
+}
+.mau{
+    color:brown;
+}
+.item1{
+    display: inline-block;
+    margin:10px 230px;
+}
+.box2{    
+    background-color:rgb(59 130 246);
+    display: flex;
+    justify-content: space-between;  
+    border-radius: 10px;     
+    width: 80%; 
+    height: 40px;
+    margin:0px 190px ;
+}
+.list{
+    margin:0px;
+    padding:0px;
+    cursor: pointer;
+}
+.item{
+    display: inline-block;
+    padding:0px;
+    transition: opacity 0.2 ease;
+}
+a{
+    transition: opacity 0.2 ease;
+    text-decoration: none;
+    display: block;
+    margin: 0;
+    padding: 8px;
+    font-size: 21px;
+    color: #fff;
+}
+a:hover{
+    background-color:#fff;
+    color: rgb(59 130 246);
+    border-radius: 10px;   
+}
+
+
+.box-black{
+    background: rgba(0, 0, 0, 0.7);
+	padding:20px;
+	border-radius: 10px;
+	margin: 30px 190px;
+	width: 500px;
+	
+}
+.control{
+	padding: 11px 60px;
+	border-radius: 50px;
+	border-style: solid;
+	font-size: 19px;
+	margin-bottom: 13px;
+}
+.label{
+	color: aliceblue;	
+	margin:0 auto 0 20px;
+    font-size: 21px;
+}
+.show{
+    
+	padding:11px 30px;
+    margin-left: 25px;
+	border-radius: 10px;
+	border-style: solid;
+	background-color: transparent;
+	color: #fff;
+    background-color: rgb(59 130 246);
+	cursor: pointer;
+	transition: opacity 0.2 ease;
+	font-size:16px;
+}
+.show:hover{
+	opacity: 0.8;
+    background-color: #fff;
+    color:rgb(59 130 246);
+}

@@ -1,0 +1,85 @@
+html{
+    height: 100%;
+}  
+body{
+    margin:0;
+	padding:0;
+    font-family: Arial, sans-serif;
+	background-image: url('https://vcdn-dulich.vnecdn.net/2022/09/24/-8995-1663985544.jpg');
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.shadow{
+    background-color:rgba(0, 0, 0, 0.8);
+    position: absolute;
+	left: 12%;
+	right: 12%;
+	padding:30px;
+	border-radius: 18px;
+	margin: 30px 120px 0 120px;
+} 
+.box1{
+    display: flex;
+    justify-content: space-between; 
+    font-size: 10px;
+}
+.mau{
+    color:brown;
+    
+}
+.item1{
+    display: inline-block;
+    margin:10px 230px;
+}
+.box2{    
+    background-color:rgb(59 130 246);
+    display: flex;
+    justify-content: space-between;  
+    border-radius: 10px;     
+    width: 80%; 
+    height: 40px;
+    margin:0px 190px ;
+}
+.list{
+    margin:0px;
+    padding:0px;
+    cursor: pointer;
+}
+a{
+    transition: opacity 0.2 ease;
+    text-decoration: none;
+    display: block;
+    margin: 0;
+    padding: 8px;
+    font-size: 21px;
+    color: #fff;
+}
+a:hover{
+    background-color:#fff;
+    color: rgb(59 130 246);
+    border-radius: 10px;   
+}
+.item{
+    display: inline-block;
+    padding:0px;
+    transition: opacity 0.2 ease;
+}
+.item:hover{
+    opacity: 0.8;
+    background-color: #fff;
+    color:rgb(59 130 246) ;
+    
+}
+/* ================================================================== */
+
+
+.p1{
+    display: flex;
+    justify-content: center;
+    color:#fff;
+}
+.p2{
+   margin: auto 13px auto 13px; 
+   color:#fff;
+} 

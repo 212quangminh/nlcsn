@@ -1,0 +1,70 @@
+html{
+    height: 100%;
+}  
+body{
+    margin:0;
+	padding:0;
+    font-family: Arial, sans-serif;
+	background-image: url('https://vcdn-vnexpress.vnecdn.net/2022/05/27/Anh-1-7673-1653619050-4228-1653624413.jpg');
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.logo{
+	margin-top: -10px;
+}
+.box1{
+	display: flex;
+	justify-content: space-around;
+	background-color: #fff;
+	height: 60px;
+}
+li{
+	list-style: none;
+	justify-content: space-around;
+}
+.item1{
+    list-style: none;
+    display: inline-block;
+    margin:25px 230px;
+    cursor: pointer;
+}
+.menu{
+	text-decoration: none;
+	color:rgb(59 130 246);
+	display: block;
+	padding:17.5px;
+	transition: opacity 0.2 ease;
+	font-size: 21px;
+}
+.menu:hover{
+	background-color: rgb(59 130 246);
+	color:#fff
+}
+.list{
+	display: flex;
+	margin: 0px;
+}
+table{
+   background-color: rgb(126, 161, 195);
+   display: flex;
+   justify-content: center;
+   margin: 100px 190px;
+   border-collapse: collapse;
+   padding: 5%; 
+   border-radius: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+th{
+    background-color: #fff;
+    color:rgb(0,0,0,1);
+    padding: 10px;
+}   
+td{
+    padding: 10px;
+    border: 1px solid #fff;
+}
+

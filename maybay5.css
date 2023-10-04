@@ -1,0 +1,88 @@
+html{
+   height: 100%;
+}
+body{
+	margin:0;
+	padding:0;
+    font-family: Arial, sans-serif;
+	background-image: url('https://vcdn-dulich.vnecdn.net/2022/09/24/-8995-1663985544.jpg');
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.p2{
+	color: #FFF;
+}
+
+.p1{
+	margin: 0 0 30px;
+	padding :0;
+	color: #FFF;	
+	text-align: center;
+	font-size: 36px;
+}
+
+.in{
+	width: 100%;
+	padding:10px 0;
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 30px;
+	border: none; 
+	border-bottom: 1px solid #fff;	
+	outline: none;
+	background:transparent ;
+}
+.la{
+	padding: 10px 0;
+	font-size: 16px;
+}	
+	
+
+.login-box{
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	padding:40px;
+	transform: translate(-50% , -50%) ;
+	background-color:rgba(0, 0, 0, 0.7);
+	border-radius: 12px 53px;
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0, 0, 0, 0.7);
+}
+.box1{
+	padding:12px 20px 12px 20px;
+	/* display: inline-block; */
+	/* text-decoration: none; */
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: 4px;
+	border-radius:  5px;
+	border-style: solid;
+	cursor: pointer;
+	transition:  0.5;
+	animation: 
+		skeleton 1.5s linear infinite   alternate}
+@keyframes skeleton{
+	0%{
+		background: green;
+
+	}
+	100%{
+		background: aqua;
+	}
+}
+.box1:hover{
+	background: aqua;
+	opacity: 0.8;
+	border-radius:  35px;
+	box-shadow: 0 0 5px red,
+	0 0 25px red,
+	0 0 50px white,
+	0 0 100px white;	
+	
+}
+.box2{
+	padding: 20px;
+}
