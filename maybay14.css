@@ -1,0 +1,97 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: orange;
+}
+
+.logo {
+    margin-top: -10px;
+}
+
+.box2 {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+}
+
+li {
+    list-style: none;
+    justify-content: space-around;
+}
+
+.list {
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.a {
+    text-decoration: none;
+    color: rgb(59 130 246);
+    display: block;
+    padding: 17.5px;
+    transition: opacity 0.2 ease;
+    font-size: 21px;
+}
+
+.a:hover {
+    background-color: rgb(59 130 246);
+    color: #fff;
+    border-radius: 10px;
+}
+
+.item {
+    display: inline-block;
+    padding: 0px;
+    transition: opacity 0.2 ease;
+
+}
+
+.canchinh1{
+    
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    margin:0 500px;
+    background-color:  #b8edf5;
+ 
+}
+.box3{
+    display: flex;
+    justify-content: space-around;  
+}
+h1{
+    margin-left:10px ;
+}
+
+
+
+.show {
+    padding:15px 40px;
+    margin:30px 0;
+    border-radius: 10px;
+    border:1px solid black;
+    background-color: transparent;
+    color: #fff;
+    background-color: orange;
+    cursor: pointer;
+    transition: opacity 0.2 ease;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+
+.show:hover {
+    opacity: 0.8;
+    background-color: #fff;
+    color: rgb(59 130 246);
+}

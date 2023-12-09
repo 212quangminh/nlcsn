@@ -1,0 +1,110 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: orange;
+}
+
+.label {
+    color: rgb(59 130 246);
+    padding: 10px;
+    font-size: 21px;
+}
+
+li {
+    list-style: none;
+    justify-content: space-around;
+}
+
+.logo {
+    margin-top: -10px;
+}
+
+.box2 {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+}
+
+.list {
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.item {
+    display: inline-block;
+    padding: 0px;
+    transition: opacity 0.2 ease;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(59 130 246);
+    display: block;
+    padding: 17.5px;
+    transition: opacity 0.2 ease;
+    font-size: 21px;
+}
+
+a:hover {
+    background-color: rgb(59 130 246);
+    color: #fff;
+    border-radius: 10px;
+}
+.rotated-image{
+    transform: rotate(90deg);
+}
+
+.box3{
+    background-color:#e3eced;
+    margin:30px 200px;
+    display: flex;
+    justify-content: space-around;  
+}
+.box4{
+    background-color:#fff ;
+    border: 1px solid black;
+    height: 400px;
+    width: 900px;
+    border-radius: 30px;
+    margin:30px 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.box1{
+    display:flex;
+    justify-content:space-around;
+    margin:0px 40px;
+}
+.box0{
+    background-color: blue;
+    border-radius: 0px 30px 30px 0px;
+    padding: 0 30px;
+    
+}
+.h1{
+    font-size: 22px;
+    margin:20px 20px;
+}
+.h12{
+    font-size: 22px;
+    padding:0 40px;
+}
+.h32{
+    color: orange;
+}
+.box{
+    background-color: #8fa4a5;
+    border-radius:  30px 0 0 30px ;
+    padding: 0 40px; 
+}
+.note1{
+    margin-top: 40px;
+}

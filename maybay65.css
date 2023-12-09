@@ -20,12 +20,6 @@ li{
 	list-style: none;
 	justify-content: space-around;
 }
-.item1{
-    list-style: none;
-    display: inline-block;
-    margin:25px 230px;
-    cursor: pointer;
-}
 .menu{
 	text-decoration: none;
 	color:rgb(59 130 246);
@@ -42,17 +36,6 @@ li{
 	display: flex;
 	margin: 0px;
 }
-table{
-   display: flex;
-   justify-content: center;
-   border-collapse: collapse;
-  margin-top: 10px;
-   border-radius: 15px;
-}
-a{
-    text-decoration: none;
-    color: black;
-}
 th{
     background-color: #dddaeb; 
     color:black;
@@ -64,7 +47,14 @@ td{
     padding: 10px;
     border: 1px solid black;
 }
-
+.canchinh1{
+    display: flex;
+    justify-content: space-around;
+}
+table{
+    border-collapse: collapse;
+    margin-top:25px;
+ }
 .note1{
     background-color: rgb(126, 161, 195);
     margin:0px;
@@ -72,9 +62,7 @@ td{
     justify-content: space-between;
 }
 .note2{
-    display: flex;
-   justify-content: space-around;
-   margin-top: 10px;
+    margin-top: 20px;
 }
 .show {
     padding: 8px ;
@@ -93,6 +81,10 @@ td{
     background-color: #fff;
     color: rgb(59 130 246);
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 .note0{
     background-color:rgb(126, 161, 195);
 	width: 100%;
@@ -102,3 +94,20 @@ td{
     bottom:0;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

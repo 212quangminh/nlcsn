@@ -1,98 +1,216 @@
-html{
-    height: 100%;
-}  
-body{
+html {
+	height: 100%;
+}
+
+body {
 	margin: 0;
-    font-family: 'PT Sans', sans-serif;
-    background-image: url('https://vcdn-dulich.vnecdn.net/2022/09/24/-8995-1663985544.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-  
-}
-.box1{
-    display: flex;
-    justify-content: space-between; 
-    font-size: 10px;
-}
-.mau{
-    color:brown;
-}
-.item1{
-    display: inline-block;
-    margin:10px 230px;
-}
-.box2{    
-    background-color:rgb(59 130 246);
-    display: flex;
-    justify-content: space-between;  
-    border-radius: 10px;     
-    width: 80%; 
-    height: 40px;
-    margin:0px 190px ;
-}
-.list{
-    margin:0px;
-    padding:0px;
-    cursor: pointer;
-}
-.item{
-    display: inline-block;
-    padding:0px;
-    transition: opacity 0.2 ease;
-}
-a{
-    transition: opacity 0.2 ease;
-    text-decoration: none;
-    display: block;
-    margin: 0;
-    padding: 8px;
-    font-size: 21px;
-    color: #fff;
-}
-a:hover{
-    background-color:#fff;
-    color: rgb(59 130 246);
-    border-radius: 10px;   
+	font-family: 'PT Sans', sans-serif;
+	/* background-image: url('https://vcdn-dulich.vnecdn.net/2022/09/24/-8995-1663985544.jpg'); */
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+
 }
 
+.logo {
+	margin-top: -10px;
+}
 
-.box-black{
-    background: rgba(0, 0, 0, 0.7);
-	padding:20px;
+.box2 {
+	background-color: #fff;
+	display: flex;
+	justify-content: space-around;
+	height: 60px;
+	/* position: sticky;
+	top :0; */
+}
+
+li {
+	list-style: none;
+	justify-content: space-around;
+}
+
+.list {
+	margin: 0px;
+	padding: 0px;
+	cursor: pointer;
+
+}
+
+.anh {
+	display: flex;
+	justify-content: center;
+}
+
+.item {
+	display: inline-block;
+	padding: 0px;
+	transition: opacity 0.2 ease;
+
+}
+
+.a {
+	text-decoration: none;
+	color: rgb(59 130 246);
+	display: block;
+	padding: 17.5px;
+	transition: opacity 0.2 ease;
+	font-size: 21px;
+}
+
+.a:hover {
+	background-color: #fff;
+	color: rgb(59 130 246);
 	border-radius: 10px;
-	margin: 30px 190px;
-	width: 500px;
+}
+
+
+.canchinh1 {
+	display: flex;
+	justify-content: space-around;
+}
+
+.canchinh2 {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 15px;
+
+}
+
+
+.canchinh4 {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.h1 {
+	margin-left: 50px;
+	border-left: 11px solid orange;
+	padding: 5px 20px;
+}
+
+h2 {
+	margin: 5px 10px;
 	
+	font-size: 21px;
 }
-.control{
-	padding: 11px 60px;
-	border-radius: 50px;
-	border-style: solid;
-	font-size: 19px;
-	margin-bottom: 13px;
+
+.back {
+	background-color: orange;
+	padding: 80px 0px;
 }
-.label{
-	color: aliceblue;	
-	margin:0 auto 0 20px;
-    font-size: 21px;
-}
-.show{
-    
-	padding:11px 30px;
-    margin-left: 25px;
+
+.box-black {
+	box-shadow: 3px 3px 6px black;
+	background-color: #fff;
 	border-radius: 10px;
+	margin: 10px 113px;
+	border: 1.5px solid black;
+
+}
+
+.departure {
+	color: orange;
+	font-size: 20px;
+}
+
+.use {
+	color: orange;
+	font-size: 25px;
+	margin-top: 30px;
+}
+
+.control {
+	padding: 11px 40px;
+	font-size: 19px;
+	color: black;
+	margin-bottom: 40px;
+	border: none;
+	border-bottom: 1px solid black;
+	outline: none;
+}
+
+.label {
+	color: orange;
+	margin: 0px 15px;
+	font-size: 15px;
+}
+
+.show {
+	margin: 12px 0px 30px 0px;
+	padding: 11px 190px;
+	border-radius: 4px;
 	border-style: solid;
 	background-color: transparent;
 	color: #fff;
-    background-color: rgb(59 130 246);
+	background-color: orange;
 	cursor: pointer;
 	transition: opacity 0.2 ease;
-	font-size:16px;
+	font-size: 16px;
 }
-.show:hover{
+
+.show:hover {
 	opacity: 0.8;
-    background-color: #fff;
-    color:rgb(59 130 246);
+	background-color: #fff;
+	color: orange;
+}
+.note{
+	display: flex;
+	justify-content: space-around;
+	margin: 50px  0 0 0 ;
+}
+h4{
+	text-align: center;
+	margin-bottom: 100px;
+	margin-top:-40px;
+}
+.note0{
+	background-color: orange;
+	padding: 50px;
+	text-align: center;
+}
+.note1{
+	background-color: orange;
+	padding: 20px;
+	color: #fff;
+	text-align: center;
+}
+.sho{
+	margin: 0px 0px 40px 0px;
+	padding: 9px 30px;
+	border-radius: 4px;
+	border-style: solid;
+	background-color: transparent;
+	color: #fff;
+	background-color: orange;
+	cursor: pointer;
+	transition: opacity 0.2 ease;
+	font-size: 16px;
+}
+
+.sho:hover {
+	opacity: 0.8;
+	background-color: #fff;
+	color: orange;
+}
+.note2{
+	font-size: 22px;
+	width: 150px;
+	color: rgb(14, 205, 116);
+	font-style: italic;
+}
+input{
+	border: 0px;
+	padding:0px;
+	margin: 0px;
+}
+.note3{
+	display: flex;
+	justify-content: space-between;
+}
+
+.chuyendong:hover{
+	transform: scale(1.1);
 }

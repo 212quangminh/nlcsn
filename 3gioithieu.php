@@ -9,29 +9,18 @@
         <style></style>
     </head>
     <body>
-       
-        <div class="box1">
-                    <ul>
-                        <li class="item1">
-                            <img src="https://vietwave.com.vn/dulichviethoan/upload/files/chung/398_3985633_vietnam_airlines_png_logo_vietnam_airline_vector_1_.png" alt="logo" width="140" height="80">
-                        </li>
-                    </ul>
-                    <ul>
-                        <li class="item1"> 
-                            <h1>tổng đài hỗ trợ: </h1> 
-                            <h1 class="mau">19001000</h1>               
-                        </li>
-                    </ul>
-        </div>
-        <!-- trang chủ -->
         <div class="box2">
+
+                    <ul>
+                        <li class="logo">
+                                <img src="https://vietwave.com.vn/dulichviethoan/upload/files/chung/398_3985633_vietnam_airlines_png_logo_vietnam_airline_vector_1_.png" alt="logo" width="100" height="50">
+                        </li>
+                    </ul>
                     <ul class="list">
                         <li class="item"> <a href="1timchuyen.php">Trang Chủ</a> </li>
+                        <li class="item"> <a href="12timhoadon.php">Tìm Hóa Đơn</a></li>
                         <li class="item"> <a href="3gioithieu.php">Giới Thiệu</a> </li>
                         <li class="item"> <a href="4lienhe.php">Liên Hệ</a> </li>
-                        
-                    </ul>
-                    <ul class="list">
                         <li class="item"><a href="5dangnhap.php">Đăng Nhập</a></li>
                     </ul>
         </div> 

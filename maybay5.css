@@ -5,21 +5,56 @@ body{
 	margin:0;
 	padding:0;
     font-family: Arial, sans-serif;
-	background-image: url('https://vcdn-dulich.vnecdn.net/2022/09/24/-8995-1663985544.jpg');
-	background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+	background-color: orange;
+	
 }
 .p2{
 	color: #FFF;
 }
-
+.canchinh2{
+	display: flex;
+	justify-content: center;
+}
 .p1{
 	margin: 0 0 30px;
 	padding :0;
 	color: #FFF;	
 	text-align: center;
 	font-size: 36px;
+}
+.logo {
+    margin-top: -10px;
+	list-style: none;
+}
+.box2 {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+}
+.list {
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+.item {
+    display: inline-block;
+    padding: 0px;
+    transition: opacity 0.2 ease;
+}
+.a {
+    text-decoration: none;
+    color: rgb(59 130 246);
+    display: block;
+    padding: 17.5px;
+    transition: opacity 0.2 ease;
+    font-size: 21px;
+}
+
+.a:hover {
+    background-color: rgb(59 130 246);
+    color: #fff;
+    border-radius: 10px;
 }
 
 .in{
@@ -40,24 +75,40 @@ body{
 	
 
 .login-box{
-    position: absolute;
-	top: 50%;
-	left: 50%;
+	margin-top: 30px;
 	width: 400px;
 	padding:40px;
-	transform: translate(-50% , -50%) ;
 	background-color:rgba(0, 0, 0, 0.7);
 	border-radius: 12px 53px;
 	box-sizing: border-box;
 	box-shadow: 0 15px 25px rgba(0, 0, 0, 0.7);
 }
-.box1{
+.register-box{
+	margin-top: 30px;
+	width: 400px;
+	padding:40px;
+	background-color:rgba(0, 0, 0, 0.7);
+	border-radius: 12px 53px;
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0, 0, 0, 0.7);
+}
+.box5{
 	padding:12px 20px 12px 20px;
-	/* display: inline-block; */
-	/* text-decoration: none; */
 	text-transform: uppercase;
 	overflow: hidden;
-	letter-spacing: 4px;
+	letter-spacing: 2px;
+	border-radius:  5px;
+	border-style: solid;
+	cursor: pointer;
+}
+.box5 a{
+	text-decoration: none;
+}
+.box1{
+	padding:12px 20px 12px 20px;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: 2px;
 	border-radius:  5px;
 	border-style: solid;
 	cursor: pointer;
@@ -81,8 +132,10 @@ body{
 	0 0 25px red,
 	0 0 50px white,
 	0 0 100px white;	
-	
 }
-.box2{
+
+.box3{
 	padding: 20px;
+	display: flex;
+	justify-content: space-between;
 }

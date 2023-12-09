@@ -20,15 +20,24 @@
                 </ul>
                 <ul class="list">
                     <li><a class="menu" href="6trangchu.php">Trang chủ</a></li>
-                    <li><a class="menu" href="">Hóa đơn</a></li>
-                    <li><a class="menu" href="7allchuyenbay.php">Quản lý chuyến bay</a></li>
-                    <li><a class="menu" href="">Đăng suất</a></li>
+                    
+                    <li><a class="menu" href="10quanlihoadon.php">Hóa đơn</a></li>
+                    <li><a class="menu" href="6quanliquangcaodiadiem.php">Quảng cáo và địa điểm</a></li>
+                    <li><a class="menu" href="7allchuyenbay.php">Chuyến Bay</a></li>
+                    <li><a class="menu" href="1timchuyen.php">Đăng Xuất</a></li>
                 </ul>
         </div>
         <?php
         include_once(__DIR__.'/connect.php');
-        // dIR timf kieur
+        
+      
         ?>
+        <div class="note1">
+            <h1>Quản lí chuyến bay</h1>
+        </div>
+        
+       <div>
+       <div class="note2"> <a class="show" href="6formthem.php"> Thêm chuyến bay</a> </div>
         <table>
         
                 <tr>
@@ -39,34 +48,49 @@
                     <th >Thời gian</th>
                     <th >Giá vé </th>
                     <th >Số ghế</th>
-                    <th >Sữa</th>
-                    <th>xóa</th>
+                    <th>Trạng thái</th>
+                    <th >Sửa</th>
+                    <th>Xóa</th>
                 </tr>
         
             <?php
-                $chuyenbay= mysqli_query($connect,"SELECT *FROM `chuyenbay` ORDER BY `ma_chuyenbay` ASC" );
+                $chuyenbay= mysqli_query($connect,"SELECT *FROM `chuyenbay` ORDER BY `ma_chuyenbay`  DESC" );
                 while ($row_chuyenbay =mysqli_fetch_array($chuyenbay)){
+                    $currentDateTime = date("Y-m-d H:i:s");
+
+                    // So sánh ngày và giờ hiện tại với ngày và giờ bay
+                    $flightDateTime = $row_chuyenbay['ngay_di'] . ' ' . $row_chuyenbay['thoi_gian_di'];
+
+                    if ($currentDateTime < $flightDateTime) {
+                        $validity = "Còn hiệu lực";
+                    } else {
+                        $validity = "Hết hiệu lực";
+                    }
             ?>
                 <tr>
                     <td> <?php echo $row_chuyenbay['ma_chuyenbay'];?></td>
                     <td> <?php echo $row_chuyenbay['noi_di'];?></td>
                     <td> <?php echo $row_chuyenbay['noi_den'];?></td>
-                    <td> <?php echo $row_chuyenbay['ngay_di'];?></td>
-                    <td> <?php echo $row_chuyenbay['thoi_gian_di'];?></td>
+                    <td> <?php echo $row_chuyenbay['ngay_di'];?>  -- <?php echo $row_chuyenbay['ngay_den'];?></td>
+                    <td> <?php echo $row_chuyenbay['thoi_gian_di'];?> -- <?php echo $row_chuyenbay['thoi_gian_den'];?></td>
                     <td> <?php echo number_format($row_chuyenbay['gia_Ve'],0,".",".");?></td>
                     <td> <?php echo $row_chuyenbay['cho_ngoi'];?></td>
-                    <td>  <a href="6formthaydoi.php?id=<?php echo $row_chuyenbay['ma_chuyenbay'];?>" id="btnUpdate" title="sua"> sua</a></td>
-                    <td>  <a href="6formthaydoi.php?id=<?php echo $row_chuyenbay['ma_chuyenbay'];?>" id="btnDelete" title="xoa"> xoa</a> </td>
+                    <td><?php echo $validity; ?></td>
+                    <td>  <a href="6formthaydoi.php?id=<?php echo $row_chuyenbay['ma_chuyenbay'];?>"  title="sua"> <i class="fa-solid fa-wrench"></i></a></td>
+                    <td>  <a href="6formxoa.php?id=<?php echo $row_chuyenbay['ma_chuyenbay'];?>"onclick="return confirm('Bạn có muốn xóa nó?')" id="btnDelete" title="xoa"> <i class="fa fa-trash" aria-hidden="true"></i></a> </td>
                 </tr>
-             
-          
-        <?php 
+                <?php 
                 }
         ?>
-            
-                   
+        
         </table>
-    </body>
+        </div>
+        <div class="note0">
+    <h2>Online Flight Booking</h2>	
+	<p >&copy; <?php echo date('Y');?> - Developed By Le Quang Minh </p>
+    
+</div>
+    </body> 
 </html>
 
 

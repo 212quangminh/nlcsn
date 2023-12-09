@@ -19,12 +19,7 @@ body {
     justify-content: space-around;
     height: 60px;
 }
-.box4 {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 10px;
-    background-color: #fff;
-}
+
 h1 {
     background-color: orange;
     font-size: 20px;
@@ -32,14 +27,16 @@ h1 {
     border-radius: 5px;
     color: #fff;
 }
-.p2 {
-   
+h2{
+    margin:10px 0 12px 10px;
+    /* text-align: center; */
 }
 .p3 {
     background-color: #fff;
     color: orange;
     border: 2px solid orange;
 }
+
 li {
     list-style: none;
     justify-content: space-around;
@@ -73,90 +70,43 @@ a:hover {
 
 }
 
-/* ================================================================== */
 
-
-
-.box-black {
-    background-color: #eaf6f8 ;
-    border-radius: 10px;
-    margin: 50px 113px;
-}
 
 .canchinh4 {
-    
+    background-color: orange;
+    margin: 50px 100px 0 100px;
 }
 
-p {
+
+input {
+    border: 0px;
     font-size: 20px;
-    margin: 0px;
-    padding: 6px;
-    font-weight: bold;
-}
-
-
-
-i {
     color: orange;
-    font-size: 25px;
-}
-
-.note0 {
-    margin-top: 10px;
-    background-color: #b8edf5 ;
+    /* text-align: center; */
+  
     
 }
 
-.note {
+
+
+.note3{
+   /* text-align: center; */
+   margin-left: 50px;
+}
+.canchinh5{
+    border: 1px solid black;
+    margin: 0px 90px;
+}
+.canchinh3 {
     background-color: #fff;
-    font-size: 25px;
-    border: 2px solid black;
-    margin: 0px 55px;
-    display: flex;
-    justify-content: space-around;
+
 }
 
-.note7 {
-    font-size: 25px;
-    border: 2px solid black;
-    margin: 0px 55px;
-}
-
-.note1 {
+.box4 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    padding: 10px;
     background-color: #fff;
-}
-
-.note2 {
-    padding: 11px 20px;
-    border: 2px;
-    border-radius: 10px;
-    border-style: solid;
-    font-size: 20px;
-}
-
-.note4 {
-    margin: 13px 0px;
-}
-
-.note5 {
-    margin: 20px 10px;
-}
-
-.note6 {
-    display: flex;
-    justify-content: space-around;
-    background-color: #b8edf5;
-}
-.note8{
-    background-color: #b8edf5;
-}
-
-
-
-h2 {
-    margin: 20px 55px;
 }
 
 .show {

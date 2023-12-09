@@ -19,27 +19,18 @@ body{
 	border-radius: 18px;
 	margin: 30px 120px 0 120px;
 } 
-.box1{
-    display: flex;
-    justify-content: space-between; 
-    font-size: 10px;
-}
-.mau{
-    color:brown;
-    
-}
-.item1{
-    display: inline-block;
-    margin:10px 230px;
+.logo{
+	margin-top: -10px;
 }
 .box2{    
-    background-color:rgb(59 130 246);
+    background-color:#fff;
     display: flex;
-    justify-content: space-between;  
-    border-radius: 10px;     
-    width: 80%; 
-    height: 40px;
-    margin:0px 190px ;
+	justify-content: space-around;  
+    height: 60px;
+}
+li{
+	list-style: none;
+	justify-content: space-around;
 }
 .list{
     margin:0px;
@@ -47,30 +38,25 @@ body{
     cursor: pointer;
 }
 a{
-    transition: opacity 0.2 ease;
     text-decoration: none;
-    display: block;
-    margin: 0;
-    padding: 8px;
-    font-size: 21px;
-    color: #fff;
+	color:rgb(59 130 246);
+	display: block;
+	padding:17.5px;
+	transition: opacity 0.2 ease;
+	font-size: 21px;
 }
 a:hover{
-    background-color:#fff;
-    color: rgb(59 130 246);
+    background-color:rgb(59 130 246);
+    color: #fff;
     border-radius: 10px;   
 }
 .item{
     display: inline-block;
     padding:0px;
     transition: opacity 0.2 ease;
+   
 }
-.item:hover{
-    opacity: 0.8;
-    background-color: #fff;
-    color:rgb(59 130 246) ;
-    
-}
+
 /* ================================================================== */
 
 

@@ -43,11 +43,11 @@ li{
 	margin: 0px;
 }
 table{
+    margin:20px;
    display: flex;
    justify-content: center;
    border-collapse: collapse;
-  margin-top: 10px;
-   border-radius: 15px;
+   /* background-color: rgb(59 130 246); */
 }
 a{
     text-decoration: none;
@@ -58,40 +58,22 @@ th{
     color:black;
     padding: 10px;
     border:1px solid black;
+    
 }   
 td{
     background-color: rgb(166, 231, 231);
     padding: 10px;
     border: 1px solid black;
 }
-
-.note1{
+h1{
     background-color: rgb(126, 161, 195);
+    padding: 20px ;
     margin:0px;
+}
+.canchinh{
+    margin-top: 20px;
     display: flex;
-    justify-content: space-between;
-}
-.note2{
-    display: flex;
-   justify-content: space-around;
-   margin-top: 10px;
-}
-.show {
-    padding: 8px ;
-    border-radius: 10px;
-    border-style: solid;
-    background-color: transparent;
-    color: #fff;
-    background-color: #63adb3;
-    cursor: pointer;
-    transition: opacity 0.2 ease;
-    font-size: 16px;
-}
-
-.show:hover {
-    opacity: 0.8;
-    background-color: #fff;
-    color: rgb(59 130 246);
+    justify-content:center;
 }
 .note0{
     background-color:rgb(126, 161, 195);
@@ -102,3 +84,4 @@ td{
     bottom:0;
 
 }
+
